@@ -1,3 +1,76 @@
+# Wardley Maps - Installation Guide for Mac, feel free to modify the code
+
+## Requirements
+- macOS 10.10 or higher
+- Node.js and npm must be installed
+- Check with: `node --version` and `npm --version` in the terminal
+- If not installed: https://nodejs.org/de/download/
+
+## Installation
+
+### Option 1: Simple installation (recommended)
+
+1. **Copy the entire folder** `WardleyMapsStandalone` to any location on your Mac
+- Recommended: `/Users/[YourName]/Applications/` or to the desktop
+
+2. **Start the app** by double-clicking on:
+- `start-app.command` in the WardleyMapsStandalone folder
+
+3. **When starting for the first time:**
+- The terminal will open
+- The app will automatically install all necessary components (takes 2-3 minutes)
+- The browser will open automatically with the app
+
+### Option 2: Installation as a macOS app
+
+1. **Create the app** (once):
+```bash
+cd /path/to/WardleyMapsStandalone
+./create-app.sh
+```
+
+2. **Move the app** to your Applications folder:
+- You will find the created `WardleyMaps.app` in the folder
+- Drag it to `/Applications`
+
+3. **Start** via Launchpad or Spotlight search
+
+## First steps
+
+1. **Create a new map**: Click on “Advanced Map Editor”
+2. **Add components**:
+- Right-click on the canvas
+- Or use the toolbar on the left
+3. **Save**: File → Save Map (Cmd+S)
+
+## Features
+
+- **Drag & drop**: Components and connections
+- **Presentation mode**: Animated step-by-step presentation
+- **Export**: As PNG or text
+- **Undo/Redo**: Cmd+Z / Cmd+Shift+Z
+
+## Troubleshooting
+
+**App won't start?**
+- Make sure Node.js is installed
+- Delete the `node_modules` folder and restart
+
+**“Command not found” error?**
+- Open Terminal
+- Run: `chmod +x /path/to/WardleyMapsStandalone/start-app.command`
+
+**Browser won't open?**
+- Open manually: http://localhost:3000
+
+## Support
+
+If you have any questions or problems, please contact the developer.
+
+---
+Version 1.0 - May 2024
+
+
 # Wardley Maps - Installationsanleitung
 
 ## Voraussetzungen
