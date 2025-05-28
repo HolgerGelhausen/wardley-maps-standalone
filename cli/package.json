@@ -1,0 +1,21 @@
+{
+  "name": "wardley-map-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to generate PNG images from Wardley Maps",
+  "main": "dist/index.js",
+  "bin": {
+    "wardley-png": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  }
+}

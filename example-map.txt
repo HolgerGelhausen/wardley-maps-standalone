@@ -1,0 +1,82 @@
+title Content & KI für KMU - Geschäftsergebnisse im Fokus
+
+component Sichtbarkeit [0.95, 0.75] color(#FF0000)
+component Beziehungen aufbauen [0.93, 0.60] label [-49.31, -37.15] color(#00FF00)
+component Reichweite erzeugen [0.92, 0.65] label [8.70, -40.85] color(#0000FF)
+component Verbindungen schaffen [0.88, 0.52] label [-43.13, -38.38] color(#FF00FF)
+component Conversions [0.90, 0.79] color(#FFA500)
+
+component Wertvoller Content [0.75, 0.65] label [-24.62, -47.03] (build)
+component Persönliche Ansprache [0.73, 0.55] label [27.22, -11.23] (build)
+component Problemlösungen [0.71, 0.70] label [5.00, -28.51] (build)
+component Regelmäßige Präsenz [0.69, 0.47] label [-35.73, -58.13] (build)
+component Vertrauensaufbau [0.67, 0.75] label [-8.58, -26.04] (build)
+
+component Blog-Artikel [0.55, 0.70] (buy)
+component Social Media Posts [0.53, 0.60] (buy)
+component E-Mail Newsletter [0.51, 0.75] (buy)
+component Video-Content [0.50, 0.33] (buy)
+component Webinare/Events [0.53, 0.52] label [5.00, -10.00] (buy)
+
+component KI-Assistent [0.32, 0.29] (outsource)
+component Content-Planung [0.33, 0.50] (outsource)
+component Automatisierung [0.31, 0.60] label [2.53, -48.26] (outsource)
+component Analytics [0.29, 0.65] (outsource)
+component Website/CMS [0.27, 0.75] (outsource)
+
+component Zielgruppenwissen [0.21, 0.55] label [-8.58, -51.96] inertia
+component Zeitmanagement [0.16, 0.53] label [23.52, 27.03] inertia
+component Budget-Kontrolle [0.10, 0.74] label [33.39, -6.30] inertia
+component KI-Grundkenntnisse [0.09, 0.25] label [-36.96, -24.81] inertia
+component Strategie [0.09, 0.37] inertia
+
+Sichtbarkeit -> Wertvoller Content
+Sichtbarkeit -> Regelmäßige Präsenz
+Beziehungen aufbauen -> Persönliche Ansprache
+Beziehungen aufbauen -> Vertrauensaufbau
+Reichweite erzeugen -> Wertvoller Content
+Reichweite erzeugen -> Regelmäßige Präsenz
+Verbindungen schaffen -> Persönliche Ansprache
+Verbindungen schaffen -> Vertrauensaufbau
+Conversions -> Problemlösungen
+Conversions -> Vertrauensaufbau
+
+Wertvoller Content -> Blog-Artikel
+Wertvoller Content -> Video-Content
+Persönliche Ansprache -> E-Mail Newsletter
+Persönliche Ansprache -> Social Media Posts
+Problemlösungen -> Blog-Artikel
+Problemlösungen -> Webinare/Events
+Regelmäßige Präsenz -> Social Media Posts
+Regelmäßige Präsenz -> E-Mail Newsletter
+Vertrauensaufbau -> E-Mail Newsletter
+Vertrauensaufbau -> Webinare/Events
+
+Blog-Artikel -> KI-Assistent
+Blog-Artikel -> Website/CMS
+Social Media Posts -> KI-Assistent
+Social Media Posts -> Content-Planung
+Social Media Posts -> Automatisierung
+E-Mail Newsletter -> Automatisierung
+E-Mail Newsletter -> Analytics
+Video-Content -> KI-Assistent
+Webinare/Events -> Content-Planung
+
+KI-Assistent -> KI-Grundkenntnisse
+Content-Planung -> Strategie
+Content-Planung -> Zeitmanagement
+Automatisierung -> Budget-Kontrolle
+Analytics -> Zielgruppenwissen
+Analytics -> Strategie
+Website/CMS -> Budget-Kontrolle
+
+Zielgruppenwissen -> Strategie
+Strategie -> Zeitmanagement
+Zeitmanagement -> Budget-Kontrolle
+
+evolution Genesis -> Custom Built -> Product -> Commodity
+style wardley
+
+note Geschäftsziele first! [0.99, 0.65]
+note Start klein! [0.45, 0.45]
+note FARBEN: Schwarz=Ziele, Blau=Kundenerlebnis, Grün=Content, Orange=Tools, Gestrichelt=Fundament [0.03, -0.01]

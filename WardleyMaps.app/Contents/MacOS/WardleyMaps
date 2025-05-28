@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the directory where the app bundle is located
+APP_DIR="$(dirname "$(dirname "$(dirname "$0")")")"
+
+# Navigate to the wardley maps directory
+cd "$APP_DIR"
+
+# Start the application in background
+osascript -e 'tell application "Terminal"
+    do script "cd \"'$APP_DIR'\" && npm start"
+    activate
+end tell'
